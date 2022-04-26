@@ -1,0 +1,46 @@
+@import "../../styleVariables/Variables.scss";
+
+.rightPanel {
+  background-color: $whiteColor;
+  flex: 2.5;
+  border-radius: 10px;
+  border: 1px solid $grayColor;
+  padding: 10px 0;
+
+  h3 {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .chat {
+    border-bottom: 1px solid $grayColor;
+  }
+
+  .chatRooms {
+    margin-bottom: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px 10px 10px;
+
+    .roomDesc {
+      color: gray;
+      font-size: 0.8rem;
+      font-weight: 200;
+    }
+  }
+
+  .chatRooms:hover {
+    text-decoration: underline;
+    background-color: $lightGrayColor;
+  }
+
+  .roomLinks {
+    text-decoration: none;
+    color: inherit;
+  }
+}

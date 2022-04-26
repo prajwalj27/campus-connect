@@ -1,0 +1,51 @@
+.rightPanel {
+  background-color: #fff;
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5;
+          flex: 2.5;
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
+  padding: 10px 0;
+}
+
+.rightPanel h3 {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.rightPanel .chat {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.rightPanel .chatRooms {
+  margin-bottom: 7px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 25px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 20px;
+  margin: 0 10px 10px 10px;
+}
+
+.rightPanel .chatRooms .roomDesc {
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.rightPanel .chatRooms:hover {
+  text-decoration: underline;
+  background-color: #ebebeb;
+}
+
+.rightPanel .roomLinks {
+  text-decoration: none;
+  color: inherit;
+}
+/*# sourceMappingURL=RightPanel.css.map */

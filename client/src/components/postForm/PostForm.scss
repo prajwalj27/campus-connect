@@ -1,0 +1,48 @@
+@import "../../styleVariables/Variables.scss";
+
+.postForm {
+  background-color: $whiteColor;
+  border: 1px solid $grayColor;
+  border-radius: 10px;
+  padding: 10px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  button {
+    position: relative;
+    left: 90.3%;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background-color: $blueColor;
+    border-radius: 20px;
+    border: none;
+    color: $whiteColor;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .inputContainer {
+    display: flex;
+
+    input {
+      margin-left: 10px;
+      flex: 0.9;
+      width: 136.8%;
+      border: 1px solid $grayColor;
+      border-radius: 20px;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    input:focus {
+      outline: 1px solid $blueColor;
+    }
+
+    img {
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+}

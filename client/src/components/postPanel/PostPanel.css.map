@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACT,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,MAAM;CACnB;;AAED,AAAA,UAAU,CAAC;EACT,kBAAkB,EAAE,IAAI;EAAG,2BAA2B;EACtD,eAAe,EAAE,IAAI;EAAG,aAAa;CACtC;;AACD,AAAA,UAAU,AAAA,mBAAmB,CAAC;EAC5B,OAAO,EAAE,IAAI;EAAG,uBAAuB;CACxC",
+    "sources": [
+        "PostPanel.scss",
+        "../../styleVariables/Variables.scss"
+    ],
+    "names": [],
+    "file": "PostPanel.css"
+}

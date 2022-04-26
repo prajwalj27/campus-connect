@@ -1,0 +1,14 @@
+.homePage {
+  background-color: #ebebeb;
+}
+
+.homePage .homepageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  width: 80%;
+  height: calc(100vh - 40px);
+  margin: auto;
+}
+/*# sourceMappingURL=HomePage.css.map */

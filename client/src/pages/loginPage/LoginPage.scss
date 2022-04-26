@@ -1,0 +1,62 @@
+@import "../../styleVariables/Variables.scss";
+
+.loginPage {
+  background-color: blue;
+  height: 100vh;
+  background-color: $grayColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    background-color: $whiteColor;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 1.7rem;
+      text-align: center;
+    }
+
+    .formGroup {
+      margin: 15px 0;
+      display: flex;
+      flex-direction: column;
+
+      label {
+        margin-left: 7px;
+        margin-bottom: 5px;
+      }
+
+      input {
+        border: 1px solid #d4d4d4;
+        border-radius: 20px;
+        height: 20px;
+        padding: 10px;
+      }
+
+      input:focus {
+        outline: 1px solid $blueColor;
+      }
+    }
+
+    button {
+      color: $whiteColor;
+      align-self: center;
+      height: 30px;
+      width: 60px;
+      background-color: $blueColor;
+      border: none;
+      border-radius: 20px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #227de6;
+    }
+  }
+}

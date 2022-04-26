@@ -1,0 +1,21 @@
+.postPanel {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  padding: 0 10px;
+  margin: 0 25px;
+  overflow-y: scroll;
+}
+
+.postPanel {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.postPanel::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+/*# sourceMappingURL=PostPanel.css.map */

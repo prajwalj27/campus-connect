@@ -1,0 +1,71 @@
+@import "../../styleVariables/Variables.scss";
+
+div {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.leftPanel {
+  background-color: $whiteColor;
+  flex: 2.5;
+  border-radius: 10px;
+  border: 1px solid $grayColor;
+  padding: 0;
+  height: 70%;
+
+  .userinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $grayColor;
+
+    .userBanner {
+      height: 50px;
+      width: 100%;
+      background-color: $blueColor;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    img {
+      position: relative;
+      top: -20px;
+      width: 70px;
+      border: none;
+      border-radius: 50%;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    p {
+      color: #636363;
+      font-size: 0.85rem;
+      font-weight: 200;
+    }
+  }
+
+  .leftPanelItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button {
+      position: relative;
+      top: 310px;
+      background-color: $blueColor;
+      font-weight: 700;
+      font-size: 1rem;
+      color: $whiteColor;
+      border: none;
+      border-radius: 20px;
+      height: 40px;
+      width: 100px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.loginPage {
+  background-color: blue;
+  height: 100vh;
+  background-color: #d5d5d5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginPage form {
+  background-color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.loginPage form h1 {
+  margin-bottom: 10px;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.loginPage form .formGroup {
+  margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loginPage form .formGroup label {
+  margin-left: 7px;
+  margin-bottom: 5px;
+}
+
+.loginPage form .formGroup input {
+  border: 1px solid #d4d4d4;
+  border-radius: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.loginPage form .formGroup input:focus {
+  outline: 1px solid #00a0f0;
+}
+
+.loginPage form button {
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 30px;
+  width: 60px;
+  background-color: #00a0f0;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.loginPage form button:hover {
+  background-color: #227de6;
+}
+/*# sourceMappingURL=LoginPage.css.map */

@@ -1,0 +1,82 @@
+.searchPosts {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+}
+
+.searchPosts input {
+  margin-left: 10px;
+  -webkit-box-flex: 0.9;
+      -ms-flex: 0.9;
+          flex: 0.9;
+  width: 93.5%;
+  border: 1px solid #d5d5d5;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.searchPosts input:focus {
+  outline: 1px solid #00a0f0;
+}
+
+.posts {
+  font-size: 0.8rem;
+}
+
+.posts .post {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.posts .postDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.posts .postDetails h3 {
+  position: relative;
+}
+
+.posts .postDetails img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.posts .postDetails p {
+  color: gray;
+}
+
+.posts .postContent {
+  padding: 10px 0;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.posts .postContent p {
+  text-align: left;
+}
+
+.posts .postContent img {
+  margin-top: 10px;
+  aspect-ratio: 4/3;
+  max-width: 637px;
+}
+
+.posts .reactions span {
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.posts .reactions span:hover {
+  background-color: blue;
+}
+/*# sourceMappingURL=Posts.css.map */

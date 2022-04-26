@@ -1,0 +1,82 @@
+@import "../../styleVariables/Variables.scss";
+
+.searchPosts {
+  padding: 10px;  
+  background-color: $whiteColor;
+  border: 1px solid $grayColor;
+  border-radius: 10px;
+  
+  input {
+    margin-left: 10px;
+    flex: 0.9;
+    width: 93.5%;
+    border: 1px solid $grayColor;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  input:focus {
+    outline: 1px solid $blueColor;
+  }
+}
+
+.posts {
+  font-size: 0.8rem;
+  
+  .post {
+    padding: 10px;  
+    background-color: $whiteColor;
+    border: 1px solid $grayColor;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .postDetails {
+    display: flex;
+    padding-bottom: 7px;
+    border-bottom: 1px solid $grayColor;
+    
+    h3 {
+      position: relative;
+
+    }
+
+    img {
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 7px;
+    }
+
+    p {
+      color: gray;
+    }
+  }
+
+  .postContent {
+    padding: 10px 0;
+    border-bottom: 1px solid $grayColor;
+
+    p {
+      text-align: left;
+    }
+
+    img {
+      margin-top: 10px;
+      aspect-ratio: 4/3;
+      max-width: 637px;
+    }
+  }
+
+  .reactions {
+    span {
+      margin: 0 5px;
+      cursor: pointer;
+      font-size: 30px;
+    }
+
+    span:hover {
+      background-color:blue;
+    }
+  }
+}
