@@ -1,0 +1,16 @@
+@import "../../styleVariables/Variables.scss";
+
+.pageNotFound {
+  height: 100vh;
+  background-color: $grayColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}

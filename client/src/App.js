@@ -5,6 +5,7 @@ import "./App.css"
 import RegisterPage from "./pages/registerPage/RegisterPage";
 import LoginPage from "./pages/loginPage/LoginPage";
 import HomePage from "./pages/homePage/HomePage";
+import PageNotFound from "./pages/pageNotFound/PageNotFound";
 
 const App = () => {
   const [user, setUser] = useState({});
@@ -38,6 +39,7 @@ const App = () => {
             </>
           )}
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
     </div>
