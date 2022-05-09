@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./RightPanel.css";
+import EventCarousel from "./eventCarousel/EventCarousel"
 
 const rooms = [
   {
@@ -49,6 +50,9 @@ const RightPanel = ({ user }) => {
       <div className="chat">
         <h3>Join Chat Rooms</h3>
         {roomsList()}
+      </div>
+      <div className="carousel">
+        <EventCarousel />
       </div>
     </div>
   );
