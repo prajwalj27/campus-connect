@@ -1,4 +1,4 @@
-@import "../../styleVariables/Variables.scss";
+@import "../../../styleVariables/Variables.scss";
 
 .searchPosts {
   padding: 10px;
@@ -9,7 +9,7 @@
   input {
     margin-left: 10px;
     flex: 0.9;
-    width: 93.5%;
+    width: 93%;
     border: 1px solid $grayColor;
     border-radius: 20px;
     padding: 10px;
@@ -62,8 +62,8 @@
 
     img {
       margin-top: 10px;
-      aspect-ratio: 4/3;
-      max-width: 637px;
+      // aspect-ratio: 4/3;
+      max-width: 570px;
     }
   }
 

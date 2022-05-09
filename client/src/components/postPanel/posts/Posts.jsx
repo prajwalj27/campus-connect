@@ -14,6 +14,7 @@ const Posts = ({ user }) => {
       const response = await axios.patch(
         `http://localhost:8080/api/posts/party/${postId}`
       );
+      return response.data;
     } catch (err) {
       console.log(err);
     }
@@ -24,6 +25,7 @@ const Posts = ({ user }) => {
       const response = await axios.patch(
         `http://localhost:8080/api/posts/like/${postId}`
       );
+      return response.data;
     } catch (err) {
       console.log(err);
     }
@@ -34,6 +36,7 @@ const Posts = ({ user }) => {
       const response = await axios.patch(
         `http://localhost:8080/api/posts/lit/${postId}`
       );
+      return response.data;
     } catch (err) {
       console.log(err);
     }
