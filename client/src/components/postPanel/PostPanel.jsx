@@ -7,7 +7,8 @@ import "./PostPanel.css"
 const PostPanel = ({user}) => {
   return (
     <div className="postPanel">
-      {user.isVerified === true && <PostForm user={user} /> }
+      {/* {user.isVerified === true && <PostForm user={user} /> } */}
+      <PostForm user={user} /> 
       <Posts user={user} />
     </div>
   );

@@ -13,20 +13,6 @@
   margin-bottom: 15px;
 }
 
-.postForm button {
-  position: relative;
-  left: 89.5%;
-  cursor: pointer;
-  width: 60px;
-  height: 30px;
-  background-color: #00a0f0;
-  border-radius: 20px;
-  border: none;
-  color: #fff;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
 .postForm .inputContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,5 +38,53 @@
 .postForm .inputContainer img {
   height: 50px;
   border-radius: 50%;
+}
+
+.postForm .postType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.postForm .postType button {
+  cursor: pointer;
+  width: 80px;
+  height: 35px;
+  background-color: #00a0f0;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.postForm .postType p {
+  visibility: hidden;
+}
+
+.postForm .postType div {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  width: 170px;
+  height: 30px;
+  border: 2px solid #ebebeb;
+  margin-right: 20px;
+  background-color: #dcf3ff;
+}
+
+.postForm .postType div:hover {
+  border: 2px solid #00a0f0;
 }
 /*# sourceMappingURL=PostForm.css.map */

@@ -9,20 +9,6 @@
   flex-direction: column;
   margin-bottom: 15px;
 
-  button {
-    position: relative;
-    left: 89.5%;
-    cursor: pointer;
-    width: 60px;
-    height: 30px;
-    background-color: $blueColor;
-    border-radius: 20px;
-    border: none;
-    color: $whiteColor;
-    font-weight: 700;
-    margin-bottom: 5px;
-  }
-
   .inputContainer {
     display: flex;
 
@@ -43,6 +29,49 @@
     img {
       height: 50px;
       border-radius: 50%;
+    }
+  }
+
+  .postType {
+    display: flex;
+    justify-content: space-between;
+    // background-color: red;
+    // width: 70%;
+
+    button {
+      // position: relative;
+      // left: 89.5%;
+      cursor: pointer;
+      width: 80px;
+      height: 35px;
+      background-color: $blueColor;
+      border-radius: 20px;
+      border: none;
+      color: $whiteColor;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    p {
+      visibility: hidden;
+    }
+
+    div {
+      cursor: pointer;
+      // color: $grayColor;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      width: 170px;
+      height: 30px;
+      border: 2px solid $lightGrayColor;
+      margin-right: 20px;
+      background-color: $lightBlueColor;
+    }
+    
+    div:hover {
+      border: 2px solid $blueColor;
     }
   }
 }

@@ -65,14 +65,12 @@ div h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .leftPanel .leftPanelItems button {
-  position: relative;
-  top: 310px;
+  position: absolute;
+  bottom: 165px;
+  left: 230px;
   background-color: #00a0f0;
   font-weight: 700;
   font-size: 1rem;

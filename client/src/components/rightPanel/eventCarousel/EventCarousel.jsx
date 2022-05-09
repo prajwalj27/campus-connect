@@ -7,7 +7,7 @@ import "./EventCarousel.css";
 const EventCarousel = () => {
   return (
     <div className="eventCarousel">
-      <Carousel autoPlay showThumbs={false} infiniteLoop showStatus={false}>
+      <Carousel autoPlay showThumbs={false} infiniteLoop showStatus={false} className="carousel">
         <div>
           <div className="carouselCaption">
             <h4>Long Event Name</h4>
@@ -34,7 +34,7 @@ const EventCarousel = () => {
             <p>Date: 2015-04-23</p>
           </div>
           <img
-            src="https://previews.123rf.com/images/rglinsky/rglinsky1201/rglinsky120100188/12336990-vertical-oriented-image-of-famous-eiffel-tower-in-paris-france-.jpg"
+            src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
             alt="event"
           />
         </div>

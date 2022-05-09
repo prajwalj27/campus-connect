@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,GAAG;CACb",
+    "sources": [
+        "MyEvents.scss",
+        "../../../styleVariables/Variables.scss"
+    ],
+    "names": [],
+    "file": "MyEvents.css"
+}

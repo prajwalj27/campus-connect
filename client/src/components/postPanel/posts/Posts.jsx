@@ -89,22 +89,34 @@ const Posts = ({ user }) => {
                 />
               )}
 
+              {post.author === "Aryan Kawli" && (
+                <img
+                  src="https://user-images.githubusercontent.com/66217883/164366729-d076d3d7-761a-43a7-80e5-5a799a2623bc.png"
+                  alt="user"
+                />
+              )}
+
               <div>
                 <h3>
                   {post.author}
-                  <GoVerified
-                    style={{
-                      position: "absolute",
-                      top: "4px",
-                      left: "112px",
-                      color: "#00a0f0",
-                    }}
-                  />
+                  {(post.author === "Prajwal Jaiswal" ||
+                    post.author === "Hrishikesh Joshi" ||
+                    post.author === "Anita Chauhan") && (
+                    <GoVerified
+                      style={{
+                        position: "absolute",
+                        top: "4px",
+                        left: "112px",
+                        color: "#00a0f0",
+                      }}
+                    />
+                  )}
                 </h3>
                 <p>
-                  {post.author === "Prajwal Jaiswal" && "CSE Community Head"}{" "}
-                  {post.author === "Anita Chauhan" && "Professor"}{" "}
-                  {post.author === "Hrishikesh Joshi" && "GSCE Student Head"} -{" "}
+                  {post.author === "Prajwal Jaiswal" && "CSE Community Head -"}{" "}
+                  {post.author === "Anita Chauhan" && "Professor -"}{" "}
+                  {post.author === "Hrishikesh Joshi" && "GSCE Student Head -"}{" "}
+                  {post.author === "Aryan Kawli" && "Student -"}{" "}
                   {moment(post.createdAt).fromNow()}
                 </p>
               </div>

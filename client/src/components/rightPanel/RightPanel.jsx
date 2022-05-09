@@ -47,12 +47,12 @@ const RightPanel = ({ user }) => {
 
   return (
     <div className="rightPanel">
+      <div className="carousel">
+        <EventCarousel />
+      </div>
       <div className="chat">
         <h3>Join Chat Rooms</h3>
         {roomsList()}
-      </div>
-      <div className="carousel">
-        <EventCarousel />
       </div>
     </div>
   );
