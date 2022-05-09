@@ -4,6 +4,9 @@ const postsSchema = new mongoose.Schema({
   author: {
     type: String,
   },
+  postType: {
+    type: String,
+  },
   image: {
     type: String,
     default: "https://www.clipartmax.com/png/middle/171-1717870_stockvader-predicted-cron-for-may-user-profile-icon-png.png"
