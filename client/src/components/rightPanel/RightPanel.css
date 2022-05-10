@@ -1,8 +1,5 @@
 .rightPanel {
   background-color: #fff;
-  -webkit-box-flex: 3.5;
-      -ms-flex: 3.5;
-          flex: 3.5;
   border-radius: 10px;
   border: 1px solid #d5d5d5;
   padding: 10px 0;
@@ -11,10 +8,6 @@
 .rightPanel h3 {
   padding: 10px;
   margin-bottom: 10px;
-}
-
-.rightPanel .chat {
-  border-bottom: 1px solid #d5d5d5;
 }
 
 .rightPanel .chatRooms {
@@ -47,5 +40,50 @@
 .rightPanel .roomLinks {
   text-decoration: none;
   color: inherit;
+}
+
+.rightPanelOuter {
+  -webkit-box-flex: 3.5;
+      -ms-flex: 3.5;
+          flex: 3.5;
+}
+
+.otherLinks {
+  margin-top: 5px;
+  color: #4e4e4e;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.otherLinks p {
+  margin-bottom: 5px;
+}
+
+.otherLinks a {
+  font-weight: 200;
+  margin: 0 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.otherLinks a:hover {
+  text-decoration: underline;
+}
+
+.otherLinks .brand {
+  font-weight: 700;
+  color: #000;
+}
+
+.otherLinks .brand img {
+  position: relative;
+  top: 4px;
+  margin-right: 3px;
+  width: 17px;
+}
+
+.otherLinks .brand span {
+  color: #00a0f0;
 }
 /*# sourceMappingURL=RightPanel.css.map */
