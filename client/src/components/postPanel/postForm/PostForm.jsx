@@ -20,10 +20,10 @@ const PostForm = ({ user }) => {
   const handlePost = async (e) => {
     e.preventDefault();
     try {
-      if (postType === "") {
-        alert("Select post type!");
-        return;
-      }
+      // if (postType === "") {
+      //   alert("Select post type!");
+      //   return;
+      // }
       if (postData.content === "" && postData.image === "") {
         alert("Can't create an empty post!");
         return;

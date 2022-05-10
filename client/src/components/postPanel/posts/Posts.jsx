@@ -96,6 +96,13 @@ const Posts = ({ user }) => {
                 />
               )}
 
+              {post.author === "Jenil Mandavia" && (
+                <img
+                src="https://user-images.githubusercontent.com/66217883/164368435-601657f3-5b99-47a4-807b-4de1e9ad0a8d.png"
+                alt="user"
+                />
+              )}
+
               <div>
                 <h3>
                   {post.author}
@@ -113,10 +120,11 @@ const Posts = ({ user }) => {
                   )}
                 </h3>
                 <p>
-                  {post.author === "Prajwal Jaiswal" && "CSE Community Head -"}{" "}
+                  {post.author === "Prajwal Jaiswal" &&   "CSE Community Head -"}{" "}
                   {post.author === "Anita Chauhan" && "Professor -"}{" "}
                   {post.author === "Hrishikesh Joshi" && "GSCE Student Head -"}{" "}
                   {post.author === "Aryan Kawli" && "Student -"}{" "}
+                  {post.author === "Jenil Mandavia" && "Student -"}{" "}
                   {moment(post.createdAt).fromNow()}
                 </p>
               </div>

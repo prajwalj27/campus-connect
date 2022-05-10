@@ -50,6 +50,7 @@ const RightPanel = ({ user }) => {
     <div className="rightPanelOuter">
       <div className="rightPanel">
         <div className="carousel">
+          <h3>Upcoming Events</h3>
           <EventCarousel />
         </div>
         <div className="chat">
