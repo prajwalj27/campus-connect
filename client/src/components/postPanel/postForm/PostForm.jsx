@@ -76,8 +76,18 @@ const PostForm = ({ user }) => {
       {user.isVerified === true ? (
         <div className="postType">
           <p>Is this </p>
-          <div onClick={() => handlePostType("event")}>Hosting an Event?</div>
-          <div onClick={() => handlePostType("post")}>Creating a New post?</div>
+          <div
+            style={{ visibility: "hidden" }}
+            onClick={() => handlePostType("event")}
+          >
+            Hosting an Event?
+          </div>
+          <div
+            style={{ visibility: "hidden" }}
+            onClick={() => handlePostType("post")}
+          >
+            Creating a New post?
+          </div>
           <button onClick={handlePost}>
             Post
             <IoSend style={{ position: "relative", left: "5px", top: "2px" }} />
