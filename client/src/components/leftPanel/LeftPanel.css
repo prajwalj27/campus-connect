@@ -57,6 +57,26 @@ div h2 {
   font-weight: 200;
 }
 
+.leftPanel .more {
+  margin-top: 15px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #636363;
+  font-size: 0.85rem;
+}
+
+.leftPanel .more:hover {
+  text-decoration: underline;
+}
+
 .leftPanel .leftPanelItems {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,6 +85,54 @@ div h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.leftPanel .leftPanelItems .leftPanelLinks {
+  padding: 0 17px;
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.1rem;
+}
+
+.leftPanel .leftPanelItems .leftPanelLinks .leftPanelIcon {
+  margin-right: 10px;
+}
+
+.leftPanel .leftPanelItems .leftPanelLinks .bellIcon {
+  color: #e2b216;
+}
+
+.leftPanel .leftPanelItems .leftPanelLinks .userIcon {
+  color: #7c9ee7;
+}
+
+.leftPanel .leftPanelItems .leftPanelLinks .exploreIcon {
+  color: #235b33;
+}
+
+.leftPanel .leftPanelItems .leftPanelLinks .eventsIcon {
+  color: #c15a5a;
+}
+
+.leftPanel .leftPanelItems .leftPanelLinks .saveIcon {
+  color: #40a25b;
+}
+
+.leftPanel .leftPanelItems .leftPanelLinks:hover {
+  text-decoration: underline;
 }
 
 .leftPanel .leftPanelItems button {

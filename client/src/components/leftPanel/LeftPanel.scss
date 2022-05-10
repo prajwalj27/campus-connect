@@ -49,10 +49,65 @@ div {
     }
   }
 
+  .more {
+    margin-top: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #636363;
+    font-size: 0.85rem;
+  }
+
+  .more:hover {
+    text-decoration: underline;
+  }
+
   .leftPanelItems {
     display: flex;
     flex-direction: column;
-    // align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $grayColor;
+
+    .leftPanelLinks {
+      padding: 0 17px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.1rem;
+
+      .leftPanelIcon {
+        margin-right: 10px;
+      }
+
+      .bellIcon {
+        color: rgb(226, 178, 22);
+      }
+
+      .userIcon {
+        color: rgb(124, 158, 231);
+      }
+
+      .exploreIcon {
+        color: rgb(35, 91, 51);
+      }
+
+      .eventsIcon {
+        color: rgb(193, 90, 90);
+      }
+
+      .saveIcon {
+        color: rgb(64, 162, 91);
+      }
+    }
+
+    .leftPanelLinks:hover {
+      text-decoration: underline;
+    }
 
     button {
       position: absolute;
